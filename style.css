@@ -18,9 +18,20 @@ body{
 	width: 100vw;
 	height: 100vh;
 	overflow-x: hidden;
-
 }
 .padding{
 	width: 100vw;
 	height: 50vh;
+}
+.back_blend{
+	background-blend-mode: multiply;
+	/* nomal,multiply,screen,overlay,
+	darken,lighten,color-dodge,saturation,
+	color,luminosity */
+}
+.text_blend{
+	mix-blend-mode: exclusion;
+/* nomal,multiply,screen,overlay,
+	darken,lighten,color-dodge,saturation,
+	color,luminosity,difference */
 }
